@@ -1,6 +1,12 @@
 {
   "whitelist": [
     {
+      "group": "androidx\\.compose\\.ui",
+      "name": "ui",
+      "version": "1\\.+",
+      "alpha": true
+    },
+    {
       "group": "com\\.mercadolibre\\.android\\.nfcpushprovisioning",
       "name": "core",
       "version": "1\\.+"
