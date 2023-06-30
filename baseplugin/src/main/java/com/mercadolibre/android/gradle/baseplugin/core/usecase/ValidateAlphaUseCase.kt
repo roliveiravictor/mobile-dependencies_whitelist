@@ -13,7 +13,7 @@ internal object ValidateAlphaUseCase {
         lintGradle: LintGradleExtension
     ): Boolean {
         var alphaAllowed = false
-        if (dependency.isAlpha) {
+        if (dependency.alpha == true) {
             AlphaAllowedProjects.groups.forEach { alphaAllowedGroup ->
                 if (alphaAllowedGroup == project.group) {
                     alphaAllowed = true

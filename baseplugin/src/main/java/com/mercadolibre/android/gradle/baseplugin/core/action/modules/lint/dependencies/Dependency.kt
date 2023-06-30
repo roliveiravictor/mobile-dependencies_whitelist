@@ -6,12 +6,12 @@ package com.mercadolibre.android.gradle.baseplugin.core.action.modules.lint.depe
  * @param name This variable represents the dependency name.
  * @param version This variable represents the dependency version.
  * @param expires This variable represents the dependency exprires.
- * @param rawExpiresDate This variable represents the dependency date.
+ * @param alpha This variable represents whether the dependency is alpha or not.
  */
 data class Dependency(
     val group: String?,
     val name: String?,
     val version: String?,
     val expires: String?,
-    val isAlpha: Boolean
+    val alpha: Boolean?
 )
