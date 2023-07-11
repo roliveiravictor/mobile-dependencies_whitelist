@@ -1,5 +1,5 @@
 {
-  "granularity": [
+  "granularities": [
     {
       "name": "com.mercadolibre.android.fbm.wms.tetris"
     }
