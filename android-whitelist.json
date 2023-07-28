@@ -4,7 +4,9 @@
       "group": "androidx\\.compose\\.ui",
       "name": "ui",
       "version": "1\\.+",
-      "granular": true
+      "allows_granular_projects": [
+        "com.mercadolibre.android.fbm.wms.feature.toggle"
+      ]
     },
     {
       "group": "com\\.mercadolibre\\.android\\.nfcpushprovisioning",
