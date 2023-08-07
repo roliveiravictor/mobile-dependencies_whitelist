@@ -5,7 +5,7 @@
       "name": "ui",
       "version": "1\\.+",
       "allows_granular_projects": [
-        "com.mercadolibre.android.fbm.wms.feature.toggle"
+        "com.mercadolibre.android.fbm.wms.tetris"
       ]
     },
     {
